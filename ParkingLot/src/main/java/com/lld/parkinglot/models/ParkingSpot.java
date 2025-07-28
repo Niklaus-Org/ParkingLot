@@ -1,4 +1,40 @@
 package com.lld.parkinglot.models;
 
-public class ParkingSpot {
+public class ParkingSpot extends  BaseModel{
+    private int number;
+    private ParkingSpotStatus parkingSpotStatus;
+    private VehicleType vehicleType;
+
+    @Override
+    public String toString() {
+        return "ParkingSpot{" +
+                "number=" + number +
+                ", parkingSpotStatus=" + parkingSpotStatus +
+                ", vehicleType=" + vehicleType +
+                '}';
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public ParkingSpotStatus getParkingSpotStatus() {
+        return parkingSpotStatus;
+    }
+
+    public void setParkingSpotStatus(ParkingSpotStatus parkingSpotStatus) {
+        this.parkingSpotStatus = parkingSpotStatus;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
+    }
 }

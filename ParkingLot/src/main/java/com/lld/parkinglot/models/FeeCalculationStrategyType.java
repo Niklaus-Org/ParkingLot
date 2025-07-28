@@ -1,4 +1,6 @@
 package com.lld.parkinglot.models;
 
-public class FeeCalculationStrategyType {
+public enum FeeCalculationStrategyType {
+    WEEKENDS,
+    WEEKDAYS,
 }

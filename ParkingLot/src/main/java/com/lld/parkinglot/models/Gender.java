@@ -1,4 +1,7 @@
 package com.lld.parkinglot.models;
 
-public class Gender {
+public enum Gender {
+    MALE,
+    FEMALE,
+    OTHERS,
 }

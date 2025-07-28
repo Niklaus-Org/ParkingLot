@@ -1,4 +1,7 @@
 package com.lld.parkinglot.models;
 
-public class VehicleType {
+public enum VehicleType {
+    TWO_WHEELER,
+    SUV,
+    SEDAN,
 }

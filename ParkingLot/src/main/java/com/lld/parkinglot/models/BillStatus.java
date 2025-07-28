@@ -1,4 +1,6 @@
 package com.lld.parkinglot.models;
 
-public class BillStatus {
+public enum BillStatus {
+    PENDING,
+    PAID,
 }

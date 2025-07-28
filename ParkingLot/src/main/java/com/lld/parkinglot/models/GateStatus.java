@@ -1,4 +1,6 @@
 package com.lld.parkinglot.models;
 
-public class GateStatus {
+public enum GateStatus {
+    OPEN,
+    CLOSED,
 }

@@ -1,4 +1,6 @@
 package com.lld.parkinglot.models;
 
-public class ParkingSpotStatus {
+public enum ParkingSpotStatus {
+    AVAILABLE,
+    NOT_AVAILABLE,
 }
